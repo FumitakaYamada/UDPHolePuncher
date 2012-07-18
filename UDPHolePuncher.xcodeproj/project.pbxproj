@@ -1,0 +1,208 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EBD1A9215B528D900CF39FD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9EBD1A9115B528D900CF39FD /* main.c */; };
+		9EBD1A9415B528D900CF39FD /* UDPHolePuncher.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9EBD1A9315B528D900CF39FD /* UDPHolePuncher.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9EBD1A8B15B528D900CF39FD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				9EBD1A9415B528D900CF39FD /* UDPHolePuncher.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9EBD1A8D15B528D900CF39FD /* UDPHolePuncher */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = UDPHolePuncher; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EBD1A9115B528D900CF39FD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		9EBD1A9315B528D900CF39FD /* UDPHolePuncher.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = UDPHolePuncher.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EBD1A8A15B528D900CF39FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EBD1A8215B528D900CF39FD = {
+			isa = PBXGroup;
+			children = (
+				9EBD1A9015B528D900CF39FD /* UDPHolePuncher */,
+				9EBD1A8E15B528D900CF39FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EBD1A8E15B528D900CF39FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EBD1A8D15B528D900CF39FD /* UDPHolePuncher */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EBD1A9015B528D900CF39FD /* UDPHolePuncher */ = {
+			isa = PBXGroup;
+			children = (
+				9EBD1A9115B528D900CF39FD /* main.c */,
+				9EBD1A9315B528D900CF39FD /* UDPHolePuncher.1 */,
+			);
+			path = UDPHolePuncher;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EBD1A8C15B528D900CF39FD /* UDPHolePuncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EBD1A9715B528D900CF39FD /* Build configuration list for PBXNativeTarget "UDPHolePuncher" */;
+			buildPhases = (
+				9EBD1A8915B528D900CF39FD /* Sources */,
+				9EBD1A8A15B528D900CF39FD /* Frameworks */,
+				9EBD1A8B15B528D900CF39FD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UDPHolePuncher;
+			productName = UDPHolePuncher;
+			productReference = 9EBD1A8D15B528D900CF39FD /* UDPHolePuncher */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EBD1A8415B528D900CF39FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 9EBD1A8715B528D900CF39FD /* Build configuration list for PBXProject "UDPHolePuncher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9EBD1A8215B528D900CF39FD;
+			productRefGroup = 9EBD1A8E15B528D900CF39FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EBD1A8C15B528D900CF39FD /* UDPHolePuncher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EBD1A8915B528D900CF39FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EBD1A9215B528D900CF39FD /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9EBD1A9515B528D900CF39FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9EBD1A9615B528D900CF39FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9EBD1A9815B528D900CF39FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9EBD1A9915B528D900CF39FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EBD1A8715B528D900CF39FD /* Build configuration list for PBXProject "UDPHolePuncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EBD1A9515B528D900CF39FD /* Debug */,
+				9EBD1A9615B528D900CF39FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EBD1A9715B528D900CF39FD /* Build configuration list for PBXNativeTarget "UDPHolePuncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EBD1A9815B528D900CF39FD /* Debug */,
+				9EBD1A9915B528D900CF39FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EBD1A8415B528D900CF39FD /* Project object */;
+}
